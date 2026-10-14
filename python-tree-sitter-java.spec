@@ -1,6 +1,6 @@
 Name:		python-tree-sitter-java
 Version:	0.23.5
-Release:	1
+Release:	2
 Summary:	Tree-sitter java grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/fa/dc/eb9c8f96304e5d8ae1663126d
 # PyPI sdist omits src/tree_sitter/*.h
 Source1:	tree-sitter-c-headers.tar.xz
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
